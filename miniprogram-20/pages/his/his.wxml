@@ -1,0 +1,15 @@
+<slider>
+</slider>
+<slider show-value="true"
+        min="10"
+        max="30"
+        activeColor="red"
+        backgroundColor="blue"
+        block-color="red"
+        block-size="25"
+        bindchange="c"
+        bindchanging="c">
+</slider>
+<view>
+  {{x}}
+</view>

@@ -1,0 +1,14 @@
+<!-- 成功的图标 -->
+<icon type="success" size="50" color="green"/>
+<icon type="success_no_circle" size="100" color="green"/>
+<!-- 信息 -->
+<icon type="info" size="80" color="teal"/>
+<!-- 警告 -->
+<icon type="warn" size="50" color="red"/>
+<icon type="cancel" size="90" color="bule"/>
+<!-- 取消-->
+<icon type="search" size="60" color="black"/>
+<!-- 搜索 -->
+<icon type="download" size="80" color="red"/>
+<!-- 等待 -->
+<icon type="waiting" size="90" color="green"/>

@@ -1,0 +1,7 @@
+var x="张三冯";
+var add=function(a,b){return a*b;};
+// 向外暴漏变量和函数
+module.exports={
+  name:x,
+  addFun:add
+}

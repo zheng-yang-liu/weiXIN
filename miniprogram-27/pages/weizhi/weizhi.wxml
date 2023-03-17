@@ -1,0 +1,5 @@
+<!--位置API函数-->
+<map longitude="{{longitude}}"
+     latitude="{{latitude}}"/>
+{{name}} || {{add}}
+

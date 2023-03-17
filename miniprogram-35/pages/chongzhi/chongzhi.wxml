@@ -1,0 +1,14 @@
+<view class="title_box">充值记录</view>
+<view wx:for="{{array}}" class="wenzi_box">
+  <view class="wenzi_box2">
+    <view class="wenben_wz1">{{item.title}}</view>
+    <view class="wenben_wz2">
+      {{item.money}}
+      
+      <view class="wenben_wz3">{{item.time}}</view>
+      </view>
+    
+  </view >
+  
+
+</view>

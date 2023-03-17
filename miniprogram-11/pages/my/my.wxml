@@ -1,0 +1,33 @@
+<view id="title">使用scroll-view标签</view>
+<scroll-view  scroll-X="true" 
+              scroll-into-view="name"
+              bindscroll="scroll"
+              bindscrolltolower="scroll2">
+
+  <view id="scr">
+    <view class="titleList">新闻</view>
+    <view class="titleList">文化</view>
+    <view class="titleList">电影</view>
+    <view class="titleList">煦炎</view>
+    <view class="titleList" id="name">萧炎</view>
+    <view class="titleList">
+      <navigator open-type="navigate" url="../index/index">  手机</navigator>
+  </view>
+    <view class="titleList">军事</view>
+    <view class="titleList">体育</view>
+    <view class="titleList">文名</view>
+    <view class="titleList">商品</view>
+  </view>
+</scroll-view>
+<scroll-view scroll-X="true">
+  <view id="father">
+    <view class="city" wx:for="{{a}}">
+      {{item}}
+    </view>
+  </view>
+</scroll-view>
+<scroll-view scroll-y="true">
+    <view wx:for="{{b}}">
+      <image src="{{item}}"/>
+    </view>
+</scroll-view>

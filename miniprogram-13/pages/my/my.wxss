@@ -1,0 +1,14 @@
+#father{
+  background-color: red;
+  width: 400px;
+  height:400px;
+}
+#kid{
+  background-color: rgb(131, 255, 127);
+  width: 100px;
+  height: 100px;
+}
+image{
+  width: 100px;
+  height: 100px;
+}

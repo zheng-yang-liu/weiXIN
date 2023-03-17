@@ -1,0 +1,5 @@
+<template name="prod">
+  <view wx:for="{{product}}">
+    {{item}}
+  </view>
+</template>

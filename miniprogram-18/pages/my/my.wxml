@@ -1,0 +1,50 @@
+<checkbox-group bindchange="c1">
+  <checkbox class="hob" value="game">游戏</checkbox>
+  <checkbox class="hob" 
+            value="dancing" 
+            
+            color="red">跳舞</checkbox>
+  <checkbox class="hob" value="sining">唱歌</checkbox>
+</checkbox-group>
+
+<view wx:for="{{hobby}}">
+  {{item}}
+</view>
+
+<checkbox-group bindchange="c1">
+  <block wx:for="{{b}}">
+    <view class="v">
+      <checkbox value="{{item.value}}"              
+                chacked="{{item.checked}}">
+                {{item.name}}
+      </checkbox>
+    </view>
+  </block>
+</checkbox-group>
+
+
+<radio-group>
+  <radio value="男" 
+        checked="true" 
+        class="v"
+        color="red"
+        disabled="true"
+        >男</radio>
+  <radio value="女" >女</radio>
+</radio-group>
+
+
+<radio-group bindchange="c2">
+  <block wx:for="{{c}}">
+
+      <radio value="{{item.value}}"              
+                chacked="{{item.chacked}}"
+                class="v2">
+                {{item.mark}}
+      </radio>
+  </block>
+</radio-group>
+<view wx:for="{{address}}">
+  {{item}}
+</view>
+

@@ -1,0 +1,8 @@
+<view id="title">这是我的页面</view>
+
+<view bindtap="tapme">
+  <image class="img" src="../../images/8.png" />
+</view>
+<view id="hr"></view>
+
+<view id="foot">{{hello}}</view>

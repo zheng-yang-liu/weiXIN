@@ -1,0 +1,10 @@
+<swiper autoplay="true"
+        interval="2000"
+        indicator-color="red"
+        indicator-dots="true">
+  <block wx:for="{{hiabao}}">
+    <swiper-item>
+      <image src="{{item}}"/>    
+    </swiper-item>
+  </block>
+</swiper>

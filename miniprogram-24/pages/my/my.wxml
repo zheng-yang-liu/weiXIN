@@ -1,0 +1,14 @@
+<image src="../../images/1.png"
+        mode="aspectFill"
+        binderror="error"
+        bindload="load"/>
+<!-- <image src="../../images/1.png"
+        mode="aspectFill"/>
+<image src="../../images/1.png"
+        mode="widthFix"/>
+<image src="../../images/1.png"
+        mode="top"/>
+<image src="../../images/1.png"
+        mode="bottom"/>
+<image src="../../images/1.png"
+        mode="center"/> -->

@@ -1,0 +1,33 @@
+.prov{
+  border: 1px solid gray;
+  margin: 15px;
+
+}
+.vip{
+  margin: 15px;
+}
+.sex{
+  margin: 10px 50px;
+  
+}
+#sex{
+  text-align: center;
+}
+.hobby{
+  margin: 10px 8px;
+}
+#hobby{
+  text-align: center
+}
+/* 年龄 */
+#age1{
+  width: 30%;
+  padding: 7px;
+}
+#age2{
+  width: 70%;
+}
+#age{
+  display: flex;
+  margin: 10px;
+}

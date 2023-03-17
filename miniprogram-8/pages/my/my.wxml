@@ -1,0 +1,22 @@
+<!-- 导航/页面的路由；由一个页面跳转到另一个页面 -->
+<view id="head"> 
+  <!-- 组件实现跳转 -->
+  <!-- 不关闭页面进行跳转 -->
+  <!-- <navigator open-type="navigate" url="../index/index"> -->
+  <!-- redirect不关闭页面进行跳转 -->
+  <!-- <navigator open-type="redirect" url="../index/index"> -->
+  <!-- reLaunch关闭所有页面进行跳转 -->
+  <!-- <navigator open-type="reLaunch" url="../index/index"> -->
+  <!-- 由跳转的页面进行跳转 目标页面进行代码编写
+    <navigator open-type="navigateBack" deta="1">返回</navigator>-->
+    <navigator open-type="navigate" url="../index/index">
+      <view class="temp">{{temp}}</view>
+    </navigator>
+  <view class="cat">{{category}}</view>
+  <view class="wea">{{weather}}</view>
+  
+  <view class="add" bindtap="tap">{{address}}</view>
+
+  <view class="week">{{week}}</view>
+  <view class="wind">{{wind}}</view>
+</view>

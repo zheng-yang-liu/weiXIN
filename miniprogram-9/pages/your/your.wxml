@@ -1,0 +1,4 @@
+<view wx:for="{{arr}}">
+  {{item.title}}
+  <image class="im" src="{{item.src}}"/>
+</view>

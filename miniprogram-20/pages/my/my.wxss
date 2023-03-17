@@ -1,0 +1,5 @@
+.s{
+  color: red;
+  margin: 15px;
+  text-align: center;
+}

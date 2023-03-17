@@ -1,0 +1,18 @@
+<input type="text" 
+      class="text"
+      placeholder="请输入姓名"
+      maxlength="100"
+      bindinput="in"
+      bindfocus="foc"
+      bindblur="blur"
+      value="{{myname}}"/>
+<view>
+  {{myname}}
+</view>
+<textarea class="text"
+          placeholder="请输入您的经历"
+          maxlength="500"
+          bindinput="mul"
+          bindlinechange="ch"
+          bindfocus="foc"
+          bindblur="blur"/>

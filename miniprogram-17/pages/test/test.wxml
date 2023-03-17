@@ -1,0 +1,28 @@
+<progress percent="70"
+          stroke-width="50"
+          show-info="true"
+          color="red"
+          active="true"
+          backgroundColor="gray">
+</progress>
+
+<view style="height:20px">使用rich-text</view>
+<rich-text nodes="<h1>HELLO</h1>"/>
+
+<rich-text type="node" nodes="{{nodes}}"/>
+
+
+<button type="primary" 
+        size="mini"
+        plain="true"
+        bindtap="tap">
+  按钮
+</button>
+<button type="warn"
+        plain="true"
+        disabled="ture">
+  按钮
+</button>
+
+
+

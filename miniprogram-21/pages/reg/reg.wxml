@@ -1,0 +1,66 @@
+<!--注册用户的页面-->
+<form bindsubmit="submit">
+  <!-- 省份 -->
+  <input type="text" 
+         class="prov"
+         placeholder="请输入所在省份"
+         name="province"/><!-- 绑定的数据变量 -->
+  <!-- 城市 -->
+  <input type="text" 
+         class="prov"
+         name="city"
+         placeholder="请输入所在城市"/>
+  <!-- 会员 -->
+  <view class="vip">
+        
+    是否注册成会员：
+    <switch checked="true" 
+            name="vip"/>
+  </view>
+  <!-- 性别 -->
+  <radio-group name="sex">
+    <view id="sex">
+      <radio value="男" 
+              checked="true"
+              class="sex">男</radio>
+      <radio value="女"
+              class="sex">女</radio>
+    </view>
+  </radio-group>
+  <!-- 爱好 -->
+  
+  <checkbox-group name="hobby">
+    
+        <checkbox class="hobby" value="唱歌">唱歌</checkbox>
+        <checkbox class="hobby" value="跳舞">跳舞</checkbox>
+        <checkbox class="hobby" value="rap">rap</checkbox>
+        <checkbox class="hobby" value="篮球">篮球</checkbox>
+    
+  </checkbox-group>
+  <!-- 年龄 -->
+  <view id="age">
+    <view id="age1">你的年龄：</view>
+    <view id="age2">
+      <slider show-value="true"
+              block-color="red"
+              name="age"
+              >
+        </slider>
+    </view>
+  </view>
+  <!-- 提交 -->
+  <button type="primary" 
+          plain="true"
+          form-type="submit">提交
+  </button>
+
+</form>
+<!-- 页面绑定数据 -->
+
+  {{province}}:
+  {{city}}:
+  {{vip}}:
+  {{sex}}:
+  <block wx:for="{{hobby}}">{{item}}:</block>
+  {{age}}
+

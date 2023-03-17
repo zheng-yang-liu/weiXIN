@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/chongzhi/chongzhi",
+    "pages/bancheng/bancheng",
+   
+    "pages/shopcar/shopcar"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

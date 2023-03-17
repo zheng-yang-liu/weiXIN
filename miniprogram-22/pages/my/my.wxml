@@ -1,0 +1,20 @@
+<!-- 音频的使用 -->
+<audio src="{{audioSrc}}"
+        controls="true"
+        name="天边"
+        author="降央卓玛"
+        poster="{{poster}}"
+        bindplay="play"
+        bindpause="pause"/>
+<!-- 视频组件 -->
+<video src="{{videoSrc}}"
+       controls="true"
+       enable-danmu="true"
+       id="v"/>
+<!-- 弹幕文本框核和按钮 -->
+<input type="text"
+       bindchange="ch"/>
+<button plain="true"
+        bindtap="tap">
+        发送弹幕
+</button>

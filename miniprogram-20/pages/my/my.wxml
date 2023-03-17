@@ -1,0 +1,32 @@
+<picker mode="selector"
+        value="{{i}}"
+        range="{{country}}"
+        bindchange="c1">
+        <view class="s">{{country[i]}}</view>  
+</picker>
+<picker mode="time"
+        value="{{time}}"
+        start="08:10"
+        end="23:13"
+        class="s"
+        bindchange="c2">
+        <view class="s">{{time}}</view> 
+</picker>
+<picker mode="date"
+        value="{{date}}"
+        start="2000-01-01"
+        end="3000-01-01"
+        class="s"
+        bindchange="c3">
+        <view class="s">{{date}}</view>
+</picker>
+<picker mode="region"
+        value="{{address}}"
+        class="s"
+        bindchange="c4">
+        <view class="s">
+          {{address[0]}}:{{address[1]}}:{{address[2]}}
+        </view>
+</picker>
+        
+

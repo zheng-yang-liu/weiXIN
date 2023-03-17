@@ -1,0 +1,6 @@
+<view class="map">练习使用地图</view>
+<map  longitude="115.452900"
+      latitude="38.852000"
+      markers="{{marker}}"
+      polyline="{{poly}}"
+      circles="{{circle}}"/>

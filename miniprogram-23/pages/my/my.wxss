@@ -1,0 +1,6 @@
+.map{
+  margin: 15px;
+  text-align: center;
+  color: red;
+  border: 1px solid gray;
+}

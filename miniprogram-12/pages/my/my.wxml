@@ -1,0 +1,29 @@
+<swiper autoplay="ture"
+        interval="2000"
+        duration="1000"
+        indicator-dots="ture"
+        indicator-color="red"
+        >
+  <view wx:for="{{src}}">
+    <swiper-item>
+      <image src="{{item}}"/>
+    </swiper-item>
+  </view>
+</swiper>
+
+
+
+
+<swiper autoplay="ture"
+        interval="2000"
+        duration="1000"
+        indicator-dots="ture"
+        indicator-color="red"
+        >
+  <swiper-item>
+    <view id="one">2222222222</view>
+  </swiper-item>
+  <swiper-item>
+    <view id="two">2353464565</view>
+  </swiper-item>
+</swiper>

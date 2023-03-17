@@ -1,0 +1,5 @@
+/* pages/my/my.wxss */
+#title{
+  font-size: 5em;
+  color: brown;
+}

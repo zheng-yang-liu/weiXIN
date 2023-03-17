@@ -1,0 +1,11 @@
+<!-- 应用wxs文件 -->
+<wxs module="soft" src="his.wxs" />
+<view>
+  {{soft.name}}
+  {{soft.addFun(3,4)}}
+</view>
+<wxs module="hard" src="../../modu/modu.wxs"/>
+<view>
+  {{hard.name}}
+  {{hard.addFun(3,4)}}
+</view>

@@ -1,0 +1,2 @@
+<import src="../../tem/tem"/>
+<template is="prod" data="{{product}}"/>

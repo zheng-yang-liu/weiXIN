@@ -1,0 +1,73 @@
+<view class="cp_box">
+  <image src="../bancheng/image/cp.png" 
+        mode="aspectFill">
+  </image>
+</view>
+<view class="twobf">
+  <view class="twobf_wz1">"夏日BABY"组合 | 论夏日BABY肌...</view>
+  <view class="twobf_wz2">
+      <view class="twobf_qian"> 
+        ￥840
+        <view class="twobf_renshu">人数：300</view>
+      </view>
+  </view>
+</view>
+<view class="kaiban_box">
+  <view class="kaiban_wz">
+    <view class="kaiban_wz1">
+      开班时间
+      <view class="kaiban_wz2">2002-04-23-2022-09-30</view>
+    </view>
+  </view>
+</view>
+<view class="didian_box">
+  <view class="didian_wz">
+    <view class="didian_wz1">
+      开班地点
+      <view class="didian_wz2">
+        北京市海淀区学院路街道学清路金码大厦22层2201室
+      </view>
+    </view>
+  </view>
+</view>
+<view class="bm_box">
+  <view class="baoming_xm" >报名信息</view>
+
+  <view class="shirukuang"> 
+    <view class="inpu_b"> 姓名：  
+      <input type="text" class="input"/>
+    </view>
+   
+    
+    <view class="inpu_b">手机：
+      <input type="text" class="input"/>
+    </view>
+  
+    
+    
+  </view>
+</view>
+
+
+<view class="kaiban_box">
+  <view class="kaiban_wz">
+    <view class="kaiban_wz1">
+      支付方式
+      <view class="kaiban_wz2">支付宝(￥1200.00)</view>
+    </view>
+  </view>
+</view>
+
+<view class="dibu_box">
+  <view class="dibu_wz">
+    <view class="dibu_wz1">
+      支付方式
+      <view class="dibu_wz2">￥1200.00</view>
+     
+    </view>
+     <view class="dibu_baoming">
+      <view class="span">立即报名</view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,127 @@
+page{
+  background-color: rgb(247, 247, 247);
+}
+.img{
+  width: 100px;
+  height: 100px;
+}
+.wai_box{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.car_box{
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+}
+.tb_tu{
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+}
+.cp_tu{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+}
+.js{
+  margin-left: 15px;
+}
+.js_name{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.js_jieshao{
+  font-size: 10px;
+  color: rgb(153, 153, 153);
+  margin-bottom: 30px;
+}
+.js_money{
+  color: rgb(0, 69, 55);
+  display: flex;
+}
+/*主容器*/  
+.stepper {
+  width: 74px;  
+  height: 20px;  
+  margin-left: 10px;
+  /*给主容器设一个边框*/  
+  border: 1px solid #ccc;  
+  border-radius: 3px;  
+}  
+
+/*加号和减号*/  
+.stepper text {  
+  width: 19px;  
+  line-height: 20px;  
+  text-align: center;  
+  float: left;  
+}  
+/*数值*/  
+.stepper input {  
+  width: 34px;  
+  height: 5px;  
+  float: left;  
+  margin: 0 auto;  
+  text-align: center;  
+  font-size: 12px;  
+  /*给中间的input设置左右边框即可*/  
+  border-left: 1px solid #ccc;  
+  border-right: 1px solid #ccc;  
+}  
+/*普通样式*/  
+.stepper .normal{  
+  color: black;  
+}  
+/* 底部样式 */
+.dibu_img{
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+}
+.dibu{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  margin-top: 100px;
+  /* 垂直居中 */
+  display: flex;
+  align-items: center;
+}
+.dibu_heji{
+  font-size: 13px;
+  margin-right: 5px;
+  color: rgb(136, 136, 136);
+}
+.dibu_span{
+  color: rgb(0, 69, 55);
+  font-weight: bold;
+}
+.dibu_del{
+  margin-right: 5px;
+  width: 80px;
+  height: 30px;
+  font-size: 13px;
+  /* 文字在盒子中居中 */
+  color: gray;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid black;
+  background-color: white;
+}
+.dibu_goumai{
+  width: 80px;
+  height: 30px;
+  font-size: 13px;
+  /* 文字在盒子中居中 */
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 30px;
+  background-color: rgb(0, 69, 55);
+}

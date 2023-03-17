@@ -1,0 +1,18 @@
+<!-- 单数据的绑定；绑定单击事件bindtap="click"//click为函数名自己定; -->
+<view class="my" bindtap="click">{{address}}</view>
+<!-- 数组数据的绑定 ；-->
+<view class="my">{{course[3]}}</view>
+<!-- json数据的绑定； -->
+<view class="my">{{student.name}}</view>
+<!-- 数字变量的绑定 -->
+<view class="my">{{a}}+{{b}}={{a+b}}</view>
+<!-- 选择语句 -->
+<view class="my">{{a>b?"正确":"错误"}}</view>
+<!-- 链接表达式 -->
+<view class="my">{{name+"是高手"}}</view>
+<!-- if条件显示 -->
+<view class="your" wx:if="{{condition}}">显示或不显示改该标签</view>
+<!-- 根据条件选择输出 -->
+<view class="my" wx:if="{{student.age<18}}">未成年人</view>
+<view class="my" wx:elif="{{student.age > 18}}">成年人</view>
+<view class="my" wx:else>刚好18岁</view>

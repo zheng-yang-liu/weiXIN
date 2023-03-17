@@ -1,0 +1,35 @@
+<view class="wai_box">
+  <view class="car_box" wx:for="{{array}}">
+    <view class="tb">
+      <image src="{{item.tbsrc}}" class="tb_tu"></image>
+    </view>
+    <view class="cp">
+      <image src="{{item.cpsrc}}" class="cp_tu"></image>
+    </view>
+    <view class="js">
+      <view class="js_name">{{item.name}}</view>
+      <view class="js_jieshao">{{item.jieshao}}</view>
+      <view class="js_money">
+        {{item.money}}
+        <!-- 主容器 -->  
+        <view class="stepper">  
+            <!-- 减号 -->  
+            <text class="{{minusStatus}}" bindtap="bindMinus">-</text>  
+            <!-- 数值 -->  
+            <input type="number" bindchange="bindManual" value="1 " />  
+            <!-- 加号 -->  
+            <text class="normal" bindtap="bindPlus">+</text>  
+        </view>  
+      </view>
+    </view>
+  </view>
+</view>
+<view class="dibu">
+  <view class="dibu_tb">
+    <image class="dibu_img" src="../shopcar/image/tb.png"></image>
+  </view>
+  <view class="dibu_heji">全选 合计：<span class="dibu_span">1420.00</span></view>
+  <view class="dibu_del">删除</view>
+  <view class="dibu_goumai">立即购买</view>
+</view>
+

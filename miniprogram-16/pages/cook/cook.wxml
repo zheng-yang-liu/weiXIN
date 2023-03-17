@@ -1,0 +1,43 @@
+<swiper autoplay="true"
+        interval="2000"
+        indicator-color="red"
+        indicator-dots="true">
+  <block wx:for="{{hiabao}}">
+    <swiper-item>
+      <image src="{{item}}"/>    
+    </swiper-item>
+  </block>
+</swiper>
+<view id="nav">
+  <block wx:for="{{nav}}">
+    <navigator open-type="navigate" url="{{item.url}}">
+      <view class="father">
+          <view class="kid">
+            <image src="{{item.icon}}" class="icon"/>
+          </view>
+          <view class="kid">
+            {{item.text}}
+          </view>
+        </view>
+    </navigator>
+  </block>
+</view>
+<view id="hr"></view>
+<view id="title">香哈头条</view>
+<bloak wx:for="{{headline}}">
+  <view id="out">
+    <view id="left">
+      <image id="img" src="{{item.img}}"/>
+    </view>
+    <view id="right">
+      <view id="head">
+        {{item.title}}
+      </view>
+      <view id="bottom">
+        <view class="comm">{{item.type}}</view>
+        <view class="comm">{{item.browse}}</view>
+        <view class="comm">{{item.comment}}</view>
+      </view>
+    </view>
+  </view>
+</bloak>

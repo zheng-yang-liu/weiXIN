@@ -1,0 +1,22 @@
+#title{
+  color: red;
+  text-align: center;
+  font-size: 2em;
+  border-bottom: 3px solid red;
+  margin: 10px;
+}
+#hr{
+  border-top: 3px solid red;
+  margin: 10px;
+}
+#foot{
+  font-size: 2em;
+  color: red;
+  text-align: center;
+  border-bottom: 3px solid red;
+  margin: 10px;
+}
+.img{
+  width: 80%;
+  margin: 0 10%;
+}

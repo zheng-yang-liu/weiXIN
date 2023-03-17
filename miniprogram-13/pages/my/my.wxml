@@ -1,0 +1,16 @@
+<movable-area id="father">
+  <movable-view id="kid" 
+                direction="all"
+                scale="true"
+                scale-max="10"
+                scale-min="0.5"
+                bindchange="chan">
+  </movable-view>
+  <movable-view direction="all" 
+                scale="true"
+                scale-max="10"
+                scale-min="0.5"
+                bindscale="scale">
+    <image src="../../images/1.png"/>
+  </movable-view>
+</movable-area>
