@@ -22,7 +22,9 @@
         </view>  
       </view>
     </view>
+
   </view>
+  <!-- <view class="line"></view> -->
 </view>
 <view class="dibu">
   <view class="dibu_tb">

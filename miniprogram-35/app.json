@@ -1,9 +1,10 @@
 {
   "pages":[
+    "pages/shopcar/shopcar",
     "pages/chongzhi/chongzhi",
-    "pages/bancheng/bancheng",
+    "pages/bancheng/bancheng"
    
-    "pages/shopcar/shopcar"
+  
    
   ],
   "window":{
