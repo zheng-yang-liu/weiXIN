@@ -1,9 +1,87 @@
-<!-- 主容器 -->  
-<view class="stepper">  
-    <!-- 减号 -->  
-    <text class="{{minusStatus}}" bindtap="bindMinus">-</text>  
-    <!-- 数值 -->  
-    <input type="number" bindchange="bindManual" value="1 " />  
-    <!-- 加号 -->  
-    <text class="normal" bindtap="bindPlus">+</text>  
-</view>  
+<view>
+    <img src="./img/tt.png" class="bg-image" alt="">
+  <!-- 添加搜索框 -->
+  <view class="container">
+    <view class="info pad-10">
+      <view class="top">
+        <view class="left">
+          <img src="./img/tt.png" alt="">
+          <view class="name">
+            <span>快乐成长</span>
+            <span style="font-size: 12px;">人生的价值，即以其人对于当代所做的工作为尺度。</span>
+          </view>
+        </view>
+        <view style="width: 100px;">
+          <view class="box">关注</view>
+        </view>
+      </view>
+      <view class="bottom">
+        <view class="my-info">
+          <span style="margin-bottom: 5px; font-size: 14px;">我的关注</span>
+          <span>12</span>
+        </view>
+        <view class="my-info">
+          <span style="margin-bottom: 5px; font-size: 14px;">我的关注</span>
+          <span>12</span>
+        </view>
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="represent ">
+      <span class="vertical"></span>
+      <span class="title">作品展示</span>
+    </view>
+    <view class="list pad-10">
+      <view class="left">
+        <img src="./img/tt.png" alt="">
+        <view class="name">
+          <span>快乐成长</span>
+          <view class="over" style="font-size: 12px;">人生的价值，即以其人对于当代所做的工作为尺度。</view>
+        </view>
+      </view>
+      <view class="cancel">取消收藏</view>
+    </view>
+    <view class="list pad-10">
+      <view class="left">
+        <img src="./img/tt.png" alt="">
+        <view class="name">
+          <span>快乐成长</span>
+          <view class="over" style="font-size: 12px;">人生的价值，即以其人对于当代所做的工作为尺度。</view>
+        </view>
+      </view>
+      <view class="cancel">取消收藏</view>
+    </view>
+    <view class="list pad-10">
+      <view class="left">
+        <img src="./img/tt.png" alt="">
+        <view class="name">
+          <span>快乐成长</span>
+          <view class="over" style="font-size: 12px;">人生的价值，即以其人对于当代所做的工作为尺度。</view>
+        </view>
+      </view>
+      <view class="cancel">取消收藏</view>
+    </view>
+    <view class="list pad-10">
+      <view class="left">
+        <img src="./img/tt.png" alt="">
+        <view class="name">
+          <span>快乐成长</span>
+          <view class="over" style="font-size: 12px;">人生的价值，即以其人对于当代所做的工作为尺度。</view>
+        </view>
+      </view>
+      <view class="cancel">取消收藏</view>
+    </view>
+    <view class="list pad-10">
+      <view class="left">
+        <img src="./img/tt.png" alt="">
+        <view class="name">
+          <span>快乐成长</span>
+          <view class="over" style="font-size: 12px;">人生的价值，即以其人对于当代所做的工作为尺度。</view>
+        </view>
+      </view>
+      <view class="cancel">取消收藏</view>
+    </view>
+  </view>
+  <footer>
+  </footer>
+</view>
